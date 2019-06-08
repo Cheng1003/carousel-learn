@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Web Test</title>
+  <link href="/test.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="layout">
+    <div id="header_container">
+      <h1><a href="#" title="Money"><img src="/img1.jpg" alt="測試圖片"></a></h1>
+    </div>
+    <div id="slider_container">
+      <div class="btn_change left">
+        <button onclick="change_left()">Left</button>
+      </div>
+      <div class="btn_change right">
+        <button onclick="change_right()">Right</button>
+      </div>
+      <div class="btn_list ">
+        <div><button onclick="myImg1()">1</button></div>
+        <div><button onclick="myImg2()">2</button></div>
+        <div><button onclick="myImg3()">3</button></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js">
+</script>
+<script src="/test.js"></script>
+
+</html>
